@@ -20,7 +20,7 @@ p{
 .myHeader 
 { 
 	grid-area: header;
-	background-image: url('Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
+	background-image: url('./Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
 	background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -44,7 +44,7 @@ p{
 .myFooter 
 { 
     grid-area: footer;
-    background-image: url('Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
+    background-image: url('./Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
