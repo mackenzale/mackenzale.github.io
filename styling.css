@@ -20,7 +20,7 @@ p{
 .myHeader 
 { 
 	grid-area: header;
-	background-image: url('./Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
+	background-image: url('Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
 	background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -44,7 +44,7 @@ p{
 .myFooter 
 { 
     grid-area: footer;
-    background-image: url('./Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
+    background-image: url('Minimalist-Crumpled-Paper-Simple-Background-Image.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -154,7 +154,10 @@ p{
         'sidepanel'
         'footer';
     }
-   
+    .t{visibility: hidden; display: none;}
+    .d{visibility: hidden; display: none;}
+    .p{visibility: hidden; display: none;}
+    .i{visibility: hidden; display: none;}
     .storeFront{grid-row:1;}
     .t1{grid-row:2;}
     .d1{grid-row:5;}
