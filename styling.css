@@ -1,3 +1,4 @@
+/* id: 101597193, submission for Final Assignment, submitted April 09 2020 */
 
 body
 {
@@ -64,8 +65,6 @@ p{
  	text-align: center;
 	border-style: solid;
 	border-color: black;
-  	/* padding: 5px 0; */
-  	/* font-size: 30px; */
 	border-radius: 1em;
 }
 
@@ -73,9 +72,6 @@ p{
 {
 	background-color: white;
  	text-align: center;
-	/* border-style: solid; border-color: black; */
-  	/* padding: 20px 0; */
-  	/* font-size: 30px; */
 	border-radius: .5em;
 }
 
@@ -112,8 +108,6 @@ p{
 }
 
 
-
-
 @media (min-width: 600px) 
 {
     .myGrid 
@@ -128,8 +122,9 @@ p{
     {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    
     #mySidePanel{width:10em;}
-    .storeFront{grid-area:"sf"; grid-column: 1 / 5;}
+    .storeFront{ grid-column: 1 / 5;}
     .t{grid-column: 1; font-size: 20px;}
     .t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9, .t10{grid-column: 1; padding: 2em .25em 1.5em .25em;}
     .d{grid-column: 2; font-size: 20px;}
@@ -201,78 +196,78 @@ p{
     .i10{grid-row:39; height:15em;}
 }
 
-.storeFront{grid-area:"sf";}
-.t{grid-area:"t"; border-style: solid; border-color: black;}
-.d{grid-area:"d"; border-style: solid; border-color: black;}
-.p{grid-area:"p"; border-style: solid; border-color: black;}
-.i{grid-area:"i"; border-style: solid; border-color: black;}
-.t1{grid-area:"t1"; border-style: solid; border-color: black;}
-.d1{grid-area:"d1"; border-style: solid; border-color: black;}
-.p1{grid-area:"p1"; border-style: solid; border-color: black;}
-.i1{grid-area:"i1"; border-style: solid; border-color: black;
+
+.t{ border-style: solid; border-color: black;}
+.d{ border-style: solid; border-color: black;}
+.p{ border-style: solid; border-color: black;}
+.i{ border-style: solid; border-color: black;}
+.t1{ border-style: solid; border-color: black;}
+.d1{ border-style: solid; border-color: black;}
+.p1{ border-style: solid; border-color: black;}
+.i1{ border-style: solid; border-color: black;
 	background-image: url('products/1-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t2{grid-area:"t2"; border-style: solid; border-color: black;}
-.d2{grid-area:"d2"; border-style: solid; border-color: black;}
-.p2{grid-area:"p2"; border-style: solid; border-color: black;}
-.i2{grid-area:"i2"; border-style: solid; border-color: black;
+.t2{ border-style: solid; border-color: black;}
+.d2{ border-style: solid; border-color: black;}
+.p2{ border-style: solid; border-color: black;}
+.i2{ border-style: solid; border-color: black;
 	background-image: url('products/2-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t3{grid-area:"t3"; border-style: solid; border-color: black;}
-.d3{grid-area:"d3"; border-style: solid; border-color: black;}
-.p3{grid-area:"p3"; border-style: solid; border-color: black;}
-.i3{grid-area:"i3"; border-style: solid; border-color: black;
+.t3{ border-style: solid; border-color: black;}
+.d3{ border-style: solid; border-color: black;}
+.p3{ border-style: solid; border-color: black;}
+.i3{ border-style: solid; border-color: black;
 	background-image: url('products/3-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t4{grid-area:"t4"; border-style: solid; border-color: black;}
-.d4{grid-area:"d4"; border-style: solid; border-color: black;}
-.p4{grid-area:"p4"; border-style: solid; border-color: black;}
-.i4{grid-area:"i4"; border-style: solid; border-color: black;
+.t4{ border-style: solid; border-color: black;}
+.d4{ border-style: solid; border-color: black;}
+.p4{ border-style: solid; border-color: black;}
+.i4{ border-style: solid; border-color: black;
 	background-image: url('products/4-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t5{grid-area:"t5"; border-style: solid; border-color: black;}
-.d5{grid-area:"d5"; border-style: solid; border-color: black;}
-.p5{grid-area:"p5"; border-style: solid; border-color: black;}
-.i5{grid-area:"i5"; border-style: solid; border-color: black;
+.t5{ border-style: solid; border-color: black;}
+.d5{ border-style: solid; border-color: black;}
+.p5{ border-style: solid; border-color: black;}
+.i5{ border-style: solid; border-color: black;
 	background-image: url('products/5-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t6{grid-area:"t6"; border-style: solid; border-color: black;}
-.d6{grid-area:"d6"; border-style: solid; border-color: black;}
-.p6{grid-area:"p6"; border-style: solid; border-color: black;}
-.i6{grid-area:"i6"; border-style: solid; border-color: black;
+.t6{ border-style: solid; border-color: black;}
+.d6{ border-style: solid; border-color: black;}
+.p6{ border-style: solid; border-color: black;}
+.i6{ border-style: solid; border-color: black;
 	background-image: url('products/6-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t7{grid-area:"t7"; border-style: solid; border-color: black;}
-.d7{grid-area:"d7"; border-style: solid; border-color: black;}
-.p7{grid-area:"p7"; border-style: solid; border-color: black;}
-.i7{grid-area:"i7"; border-style: solid; border-color: black;
+.t7{ border-style: solid; border-color: black;}
+.d7{ border-style: solid; border-color: black;}
+.p7{ border-style: solid; border-color: black;}
+.i7{ border-style: solid; border-color: black;
 	background-image: url('products/7-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t8{grid-area:"t8"; border-style: solid; border-color: black;}
-.d8{grid-area:"d8"; border-style: solid; border-color: black;}
-.p8{grid-area:"p8"; border-style: solid; border-color: black;}
-.i8{grid-area:"i8"; border-style: solid; border-color: black;
+.t8{ border-style: solid; border-color: black;}
+.d8{ border-style: solid; border-color: black;}
+.p8{ border-style: solid; border-color: black;}
+.i8{ border-style: solid; border-color: black;
 	background-image: url("products/8-prod.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t9{grid-area:"t9"; border-style: solid; border-color: black;}
-.d9{grid-area:"d9"; border-style: solid; border-color: black;}
-.p9{grid-area:"p9"; border-style: solid; border-color: black;}
-.i9{grid-area:"i9"; border-style: solid; border-color: black;
+.t9{ border-style: solid; border-color: black;}
+.d9{ border-style: solid; border-color: black;}
+.p9{ border-style: solid; border-color: black;}
+.i9{ border-style: solid; border-color: black;
 	background-image: url('products/9-prod.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
-.t10{grid-area:"t10"; border-style: solid; border-color: black;}
-.d10{grid-area:"d10"; border-style: solid; border-color: black;}
-.p10{grid-area:"p10"; border-style: solid; border-color: black;}
-.i10{grid-area:"i10"; border-style: solid; border-color: black;
+.t10{ border-style: solid; border-color: black;}
+.d10{ border-style: solid; border-color: black;}
+.p10{ border-style: solid; border-color: black;}
+.i10{ border-style: solid; border-color: black;
 	background-image: url('products/10-prod.png');
 	background-repeat: no-repeat;
     background-size: 100% 100%;}
